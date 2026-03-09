@@ -1,4 +1,4 @@
-CCNA構築構成図
+dCCNA構築構成図
 
 ＃＃構成　PC-switch-router1-router2(nat)-server  
 
@@ -36,6 +36,9 @@ NATテーブルの確認方法
 検証コマンドは以下の通り
 show ip nat statistics
 show ip nat trunslation
+
+
+![Uploading スクリーンショット 2026-03-10 8.19.11.png…]()
 
 
 
