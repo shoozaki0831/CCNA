@@ -93,10 +93,10 @@ default-gateway 192.168.20.1
 
 OSPF setting
 router ospf 1
-network 10.0.12.0 0.0.0.255 area 0
+network 10.0.12.0 0.0.0.3 area 0
 network 192.168.10.0 0.0.0.255 area 0　→NW address指定
 network 192.168.20.0 0.0.0.255 area 0　→NW address指定
-説明：NW：10.0.12.0/24 の自動経路設定
+説明：NW：10.0.12.0/30 の自動経路設定
 　　　NW：192.168.10.0 の自動経路設定
 　　　NW:192.168.20.0　の自動経路設定
 
